@@ -1,9 +1,8 @@
-package pertemuan2;
+package pertemuan3;
 
 public class Node {
 	private int data;
 	private Node next ;
-	public Node Next;
 	
 	// inisialisasi Node
 	public Node (int data) {
@@ -16,4 +15,5 @@ public class Node {
 	
 	public void setNext (Node next) {this.next = next;}
 	public Node getNext() {return next;}
+
 }
